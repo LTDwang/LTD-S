@@ -14,6 +14,10 @@ def power(x, n):
         s = s * x
     return s
 
+def imfor(name, age):
+     print ("name:", name)
+     print ("age:", age)
+
 
 
      
