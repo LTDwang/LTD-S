@@ -18,6 +18,13 @@ def imfor(name, age):
      print ("name:", name)
      print ("age:", age)
 
+def get(a, b, c):
+    c =abs(int(input()))
+    d =int(input())
+    e =input()
+    b =(c, d, e)
+    a =b[0]
+    print (a)
 
 
      
