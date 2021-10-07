@@ -27,6 +27,8 @@ def jiecheng(i):
     if i ==1:
         return 1
     return i * jiecheng(i-1)
+
+
     
 
      

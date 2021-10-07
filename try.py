@@ -30,3 +30,7 @@ k = int(input())
 l = jiecheng(k)
 print (l) ##jiecheng测试
 
+n = int(input())
+while n > 0:
+    n =n+1
+    print (n) ##好玩的东西
