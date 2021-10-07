@@ -7,7 +7,7 @@ def unabs(x):
          else:
             return -x ##定义一个反绝对值的函数
 
-def power(x, n):
+def power(x, n =2):
     s = x
     while n > 1:
         n = n-1
@@ -18,13 +18,15 @@ def imfor(name, age):
      print ("name:", name)
      print ("age:", age)
 
-def get(a, b, c):
-    c =abs(int(input()))
-    d =int(input())
-    e =input()
-    b =(c, d, e)
+def get(f, g, h):
+    b =(f, g, h)
     a =b[0]
     print (a)
 
+def jiecheng(i):
+    if i ==1:
+        return 1
+    return i * jiecheng(i-1)
+    
 
      
